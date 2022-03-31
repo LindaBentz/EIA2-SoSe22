@@ -1,0 +1,32 @@
+span {
+    position: fixed;
+    background-color: rgba(101, 153, 120, 0.794);
+    margin-left: 5%;
+    margin-top: 5px;
+    border-color: black;
+    width: 30%;
+    height: 20%;
+    font-size: larger;
+
+}
+
+
+#div0 {
+    position: absolute;
+    margin-left: 5%;
+    margin-top: 50px;
+    border-color: black;
+    border-style: dashed;
+    width: 40%;
+    height: 75%;
+}
+
+#div1 {
+    position: absolute;
+    margin-left: 53%;
+    margin-top: 50px;
+    border-color: black;
+    border-style: dashed;
+    width: 40%;
+    height: 75%;
+}
