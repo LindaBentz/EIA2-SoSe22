@@ -33,7 +33,7 @@ namespace A02 {
         let position: HTMLElement = span;
         position.style.left = x + "px";
         position.style.top = y + "px";
-        position.textContent = "x-Koordinate " + x + " px" + " , " + "y-Koordinate " + y + " px";
+        position.textContent = "x-Koordinate " + x + " px" + " , " + "y-Koordinate " + y + " px" + _event.target;
     }
 
     function logInfo(_event: Event): void {
@@ -41,6 +41,7 @@ namespace A02 {
         console.log("The Event Target is:", _event.target);
         console.log("The Current Target is:", _event.currentTarget);
         console.log("The Event Type is:", _event.type);
+        console.log(_event);
     }
 }
 

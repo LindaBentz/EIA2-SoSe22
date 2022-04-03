@@ -23,13 +23,14 @@ var A02;
         let position = span;
         position.style.left = x + "px";
         position.style.top = y + "px";
-        position.textContent = "x-Koordinate " + x + " px" + " , " + "y-Koordinate " + y + " px";
+        position.textContent = "x-Koordinate " + x + " px" + " , " + "y-Koordinate " + y + " px" + _event.target;
     }
     function logInfo(_event) {
         console.log("The Event Phase is:", _event.eventPhase);
         console.log("The Event Target is:", _event.target);
         console.log("The Current Target is:", _event.currentTarget);
         console.log("The Event Type is:", _event.type);
+        console.log(_event);
     }
 })(A02 || (A02 = {}));
 //# sourceMappingURL=EventInspector.js.map
