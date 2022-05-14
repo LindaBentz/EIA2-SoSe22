@@ -1,3 +1,5 @@
+// Zusammenarbeit mit Anna-Lena Jörger und Evelin Sinner
+
 namespace L08_2 {
     window.addEventListener("load", handleLoad);
     let crc2: CanvasRenderingContext2D;
