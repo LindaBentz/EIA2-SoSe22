@@ -1,4 +1,5 @@
 "use strict";
+// Zusammenarbeit mit Anna-Lena Jörger und Evelin Sinner
 var L08_2;
 (function (L08_2) {
     window.addEventListener("load", handleLoad);
